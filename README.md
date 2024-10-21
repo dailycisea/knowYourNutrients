@@ -6,6 +6,7 @@ A. Prerequisites
 -	Anaconda
 -	Gradio
 -	Prompt engineering<br/>
+
 B. Step by step
 1.	Create Virtual Environment using conda
 ```
@@ -52,9 +53,59 @@ TOGETHER_API_KEY=xxx
 TAVILY_API_KEY=tvly-xxx
 ```
 4.	Prompt Engineering
--	Define purpose
--	Buat prompt singkat
--	Detailkan dengan template prompt
+We will use `https://smith.langchain.com/hub/hardkothari/prompt-maker` to create our prompt <br/>
+-	Define task<br/>
+food detection given image inside of refrigerator
+-	Buat prompt singkat<br/>
+You are professional nutritionist and food expert, What food ingredients are in the refrigerator? 
+-	Detailkan dengan template prompt <br/>
+```
+system
+
+You are an expert Prompt Writer for Large Language Models.
+
+human
+
+Your goal is to improve the prompt given below for {task} :
+
+--------------------
+
+Prompt: {lazy_prompt}
+
+--------------------
+
+Here are several tips on writing great prompts:
+
+-------
+
+Start the prompt by stating that it is an expert in the subject.
+
+Put instructions at the beginning of the prompt and use ### or to separate the instruction and context 
+
+Be specific, descriptive and as detailed as possible about the desired context, outcome, length, format, style, etc 
+
+---------
+
+Here's an example of a great prompt:
+
+As a master YouTube content creator, develop an engaging script that revolves around the theme of "Exploring Ancient Ruins."
+Your script should encompass exciting discoveries, historical insights, and a sense of adventure.
+Include a mix of on-screen narration, engaging visuals, and possibly interactions with co-hosts or experts.
+The script should ideally result in a video of around 10-15 minutes, providing viewers with a captivating journey through the secrets of the past.
+
+Example:
+"Welcome back, fellow history enthusiasts, to our channel! Today, we embark on a thrilling expedition..."
+-----
+
+
+Now, improve the prompt.
+
+IMPROVED PROMPT:
+```
+Send it to openAI chatgpt<br/>
+Here the result <br/>
+![image](https://github.com/user-attachments/assets/fecb8c4f-b1ce-4522-bd35-cfe63f10281a)<br/>
+
 5.	Buat function untuk llama 3.2 vision dan fungsi pendukung
 6.	Buat gradio untuk deployment
 Complete source code 
