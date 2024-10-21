@@ -30,10 +30,13 @@ gradio==4.43.0
 ```
 
 3.	How to get api
--	https://www.together.ai/
+- together.ai
+we're not gonna using local llama 3.2 but we'll using Inference from together.ai to run our model <br/>
+Step : <br/>
+First, access https://www.together.ai/ <br/>
 login using your account<br/>
 Click `Dashboard`<br/>
-Get your api key
+Get your api key<br/>
 ![image](https://github.com/user-attachments/assets/301e0b11-4bd4-4031-9f29-51923b1931ba)
 -	https://tavily.com/
 Create .env file
