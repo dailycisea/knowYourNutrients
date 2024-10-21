@@ -12,7 +12,7 @@ B. Step by step
 conda create --name agent python= 3.10.14
 conda activate agent
 ```
-2.	Install required libraries
+2.	Install required libraries <br/>
 requirement.txt
 ```
 #python 3.10.14
