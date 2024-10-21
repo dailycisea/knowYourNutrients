@@ -107,8 +107,8 @@ Here the result <br/>
 ![image](https://github.com/user-attachments/assets/fecb8c4f-b1ce-4522-bd35-cfe63f10281a)<br/>
 
 5.	Buat function untuk llama 3.2 vision dan fungsi pendukung
-6.	Buat gradio untuk deployment
-Complete source code 
+6.	Buat gradio untuk deployment <br/>
+Complete source code<br/>
 https://github.com/dailycisea/knowYourNutrients
 Reference
 https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
