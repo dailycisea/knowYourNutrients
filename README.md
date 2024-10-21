@@ -30,7 +30,7 @@ gradio==4.43.0
 ```
 
 3.	How to get api
-- together.ai
+- together.ai <br/>
 we're not gonna using local llama 3.2 but we'll using Inference from together.ai to run our model <br/>
 Step : <br/>
 First, access https://www.together.ai/ <br/>
