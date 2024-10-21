@@ -136,9 +136,10 @@ def llama32(messages, model_size=11):
 ![Screenshot 2024-10-20 194325](https://github.com/user-attachments/assets/424c1fca-8320-4891-b2c2-2665fc5c2fee)
 
 Reference <br/>
-https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
-https://learn.deeplearning.ai/courses/introducing-multimodal-llama-3-2/lesson/1/introduction
-https://smith.langchain.com/hub/hardkothari/prompt-maker
-https://www.youtube.com/watch?v=MUZtVEDKXsk&t=618s
+https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/ <br/>
+https://learn.deeplearning.ai/courses/introducing-multimodal-llama-3-2/lesson/1/introduction <br/>
+https://smith.langchain.com/hub/hardkothari/prompt-maker <br/>
+https://www.youtube.com/watch?v=MUZtVEDKXsk&t=618s <br/>
+https://medium.com/@minhleduc_0210/boost-your-rag-performance-with-tavily-search-api-607a6437ab8e <br/>
 
 
