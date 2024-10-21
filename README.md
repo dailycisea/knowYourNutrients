@@ -48,6 +48,8 @@ For free account, you can get 1000 request API limit <br/>
 
 Create .env file
 ```
+TOGETHER_API_KEY=xxx
+TAVILY_API_KEY=tvly-xxx
 ```
 4.	Prompt Engineering
 -	Define purpose
