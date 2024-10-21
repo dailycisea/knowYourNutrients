@@ -10,7 +10,7 @@ A. Prerequisites
 B. Step by step
 1.	Create Virtual Environment using conda
 ```
-conda create --name agent python= 3.10.14
+conda create --name agent python=3.10.14
 conda activate agent
 ```
 2.	Install required libraries <br/>
@@ -52,7 +52,7 @@ Create .env file
 TOGETHER_API_KEY=xxx
 TAVILY_API_KEY=tvly-xxx
 ```
-4.	Prompt Engineering
+4.	Prompt Engineering <br/>
 We will use `https://smith.langchain.com/hub/hardkothari/prompt-maker` to create our prompt <br/>
 -	Define task<br/>
 food detection given image inside of refrigerator
