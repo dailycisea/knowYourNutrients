@@ -107,6 +107,30 @@ Here the result <br/>
 ![image](https://github.com/user-attachments/assets/fecb8c4f-b1ce-4522-bd35-cfe63f10281a)<br/>
 
 5.	Buat function untuk llama 3.2 vision dan fungsi pendukung
+```
+def llama32(messages, model_size=11):
+  model = f"meta-llama/Llama-3.2-{model_size}B-Vision-Instruct-Turbo"
+  url = f"{os.getenv('DLAI_TOGETHER_API_BASE', 'https://api.together.xyz')}/v1/chat/completions"
+  payload = {
+    "model": model,
+    "max_tokens": 4096,
+    "temperature": 0.0,
+    "stop": ["<|eot_id|>","<|eom_id|>"],
+    "messages": messages
+  }
+
+  headers = {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {os.getenv('TOGETHER_API_KEY')}"
+  }
+  res = json.loads(requests.request("POST", url, headers=headers, data=json.dumps(payload)).content)
+
+  if 'error' in res:
+    raise Exception(res['error'])
+
+  return res['choices'][0]['message']['content']
+```
 6.	Buat gradio untuk deployment <br/>
 Complete source code<br/>
 https://github.com/dailycisea/knowYourNutrients
