@@ -31,7 +31,14 @@ gradio==4.43.0
 
 3.	How to get api
 -	https://www.together.ai/
+login using your account<br/>
+Click `Dashboard`<br/>
+Get your api key
+![image](https://github.com/user-attachments/assets/301e0b11-4bd4-4031-9f29-51923b1931ba)
 -	https://tavily.com/
+Create .env file
+```
+```
 4.	Prompt Engineering
 -	Define purpose
 -	Buat prompt singkat
