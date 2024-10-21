@@ -1,5 +1,6 @@
 # knowYourNutrients
-Outline <br/>
+
+## Building MiniProject for Analysis and Nutrition Search using Llama-3.2-80B-Vision-Instruct-Turbo and tavily <br/>
 A. Prerequisites
 -	Python
 -	Anaconda
