@@ -5,7 +5,7 @@ A. Prerequisites
 -	Python
 -	Anaconda
 -	Gradio
--	Prompt engineering
+-	Prompt engineering<br/>
 B. Step by step
 1.	Create Virtual Environment using conda
 ```
