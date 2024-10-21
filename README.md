@@ -106,7 +106,7 @@ Send it to openAI chatgpt<br/>
 Here the result <br/>
 ![image](https://github.com/user-attachments/assets/fecb8c4f-b1ce-4522-bd35-cfe63f10281a)<br/>
 
-5.	Buat function untuk llama 3.2 vision dan fungsi pendukung
+5.	Buat function untuk llama 3.2 vision dan fungsi pendukung lainnya
 ```
 def llama32(messages, model_size=11):
   model = f"meta-llama/Llama-3.2-{model_size}B-Vision-Instruct-Turbo"
@@ -132,8 +132,9 @@ def llama32(messages, model_size=11):
   return res['choices'][0]['message']['content']
 ```
 6.	Buat gradio untuk deployment <br/>
-Complete source code<br/>
-https://github.com/dailycisea/knowYourNutrients
+![Screenshot 2024-10-20 194137](https://github.com/user-attachments/assets/664748af-99f4-411d-ae86-a60d3f2e722d) <br/>
+![Screenshot 2024-10-20 194325](https://github.com/user-attachments/assets/424c1fca-8320-4891-b2c2-2665fc5c2fee)
+
 Reference <br/>
 https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
 https://learn.deeplearning.ai/courses/introducing-multimodal-llama-3-2/lesson/1/introduction
