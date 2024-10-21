@@ -39,7 +39,13 @@ login using your account<br/>
 Click `Dashboard`<br/>
 Get your api key<br/>
 ![image](https://github.com/user-attachments/assets/301e0b11-4bd4-4031-9f29-51923b1931ba)
--	https://tavily.com/
+-	tavily
+Step : <br/>
+access https://tavily.com/ <br/>
+Login using your account <br/>
+For free account, you can get 1000 request API limit <br/>
+![image](https://github.com/user-attachments/assets/1c2bca45-f299-4c64-9dac-8359ccfaeb2c)
+
 Create .env file
 ```
 ```
