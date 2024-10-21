@@ -134,7 +134,7 @@ def llama32(messages, model_size=11):
 6.	Buat gradio untuk deployment <br/>
 Complete source code<br/>
 https://github.com/dailycisea/knowYourNutrients
-Reference
+Reference <br/>
 https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
 https://learn.deeplearning.ai/courses/introducing-multimodal-llama-3-2/lesson/1/introduction
 https://smith.langchain.com/hub/hardkothari/prompt-maker
