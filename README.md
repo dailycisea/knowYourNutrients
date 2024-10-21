@@ -1,5 +1,5 @@
 # knowYourNutrients
-Outline
+Outline < br />
 A. Prerequisites
 -	Python
 -	Anaconda
